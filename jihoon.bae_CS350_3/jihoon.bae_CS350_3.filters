@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{a4ea99d5-c017-42bd-9827-38ec6928a108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{51db7a8d-124c-4cae-821f-91ad67be47b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader">
+      <UniqueIdentifier>{c162e4b8-4aef-4cfd-a415-98de0e7dbe95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TGA">
+      <UniqueIdentifier>{83c3b4b2-d9e1-44cb-a379-f270bfc55506}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main\Main.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Support.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\EulerAngles.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\EulerOrder.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\MathFunctions.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix2.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix3.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix4.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Quaternion.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Reals.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Utilities.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector2.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector3.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector4.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GFX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TGA\tgaimage.cpp">
+      <Filter>Source Files\TGA</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spherical.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMapTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main\Support.h">
+      <Filter>Source Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\EulerAngles.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\EulerOrder.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Math.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathFunctions.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix2.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix3.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix4.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MatrixStorage.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Quaternion.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Reals.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Utilities.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4.hpp">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GFX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TGA\tgaimage.h">
+      <Filter>Source Files\TGA</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spherical.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMapTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\light.vs">
+      <Filter>Source Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\light.fs">
+      <Filter>Source Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\color.vs">
+      <Filter>Source Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\color.fs">
+      <Filter>Source Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\skybox.vs">
+      <Filter>Source Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\skybox.fs">
+      <Filter>Source Files\Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
