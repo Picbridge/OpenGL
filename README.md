@@ -1,4 +1,4 @@
-# Spatial_partitioning
+# OpenGL projects
 
 A hybrid rendering pipeline that employs a **Deferred Rendering** , **bounding volume hierarchy**, and **Adaptive Octree and BSP-tree representation**.
 
