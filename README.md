@@ -28,8 +28,8 @@ A hybrid rendering pipeline that employs a **Deferred Rendering** , **bounding v
 
 ### Spatial Partitioning
   
-  -Octree: Adaptive octree in top-down fashion. Shows all levels of the octree in different colors
+  - Octree: Adaptive octree in top-down fashion. Shows all levels of the octree in different colors
   
-  -BST Tree: Shows all leaf nodes of the BSP tree in a different color
+  - BST Tree: Shows all leaf nodes of the BSP tree in a different color
   
   ![Partitioning](https://github.com/Picbridge/Spatial_partitioning/blob/main/gif/Partition.gif)
