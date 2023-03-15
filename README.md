@@ -8,13 +8,13 @@ A hybrid rendering pipeline that employs a **Deferred Rendering** , **bounding v
 
   - Use W,A,S,D,Q,E to move the camera.
 
-#### Lightsource
+### Lightsource
   
   - Generate/Deletes random colored light
   
   ![Light](https://github.com/Picbridge/Spatial_partitioning/blob/main/gif/light.gif)
   
-##### Bounding Volumes
+### Bounding Volumes
 
   - AABB, OBB Bounding Sphere, Bounding Sphere(centroid), Larsson's method, Ritter’s method, Bounding Sphere (PCA method)
   
@@ -26,7 +26,7 @@ A hybrid rendering pipeline that employs a **Deferred Rendering** , **bounding v
 
   ![Hierarchy](https://github.com/Picbridge/Spatial_partitioning/blob/main/gif/BV_Hierarchy.gif)
 
-###### Spatial Partitioning
+### Spatial Partitioning
   
   -Octree: Adaptive octree in top-down fashion. Shows all levels of the octree in different colors
   
